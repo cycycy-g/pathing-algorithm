@@ -1,12 +1,13 @@
-import './App.css';
-import Graph from './containers/Graph/Graph';
+import React from "react";
+import "./App.css";
+import Graph from "./containers/Graph/Graph";
 
-function App() {
-  return (
-    <div className="App">
-      <Graph />
-    </div>
-  );
+function App(): JSX.Element {
+    return (
+        <div className="App">
+            <Graph />
+        </div>
+    );
 }
 
 export default App;
